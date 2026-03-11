@@ -1,0 +1,68 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Complete Checkout Process for Accessories with Shipping Information,"Navigate to the accessories category, add an item to the cart, and proceed through the checkout process by entering shipping details and completing the order.","Step 1: Navigate to /
+Step 2: Click on link accessories -> Navigate to page '/category/accessories'
+Step 3: Click on button addToCart
+Step 4: Click on link placeOrder -> Navigate to page '/cart'
+Step 5: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+Step 6: Click on input email
+Step 7: Enter input value in input email
+Step 8: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
+Step 9: Click on input firstName
+Step 10: Enter input value in input firstName
+Step 11: Click on input lastName
+Step 12: Enter input value in input lastName
+Step 13: Click on input address
+Step 14: Enter input value in input address
+Step 15: Click on input zipCode
+Step 16: Enter input value in input zipCode
+Step 17: Click on input city
+Step 18: Click on input city
+Step 19: Enter input value in input city
+Step 20: Click on input state
+Step 21: Enter input value in input state
+Step 22: Click on input phone
+Step 23: Enter input value in input phone
+Step 24: Click on button continueToPayment -> Navigate to page '/checkout/payment'
+Step 25: Click on button completeOrder -> Navigate to page '/thank-you/*'
+Step 26: Click on link kCellphoneShop -> Navigate to page '/'
+Step 27: Click on button addToCart
+Step 28: Click on button close -> Navigate to page ''
+Step 29: Take full page screenshot as checkpoint
+",High,NEW
+3,Manage Shopping Cart with Multiple Accessories and Verify Home Page,"Add multiple accessories to the cart, remove items, and navigate through product categories while ensuring the home page is displayed correctly.","Step 1: Navigate to /
+Step 2: Click on button addToCart2
+Step 3: Click on label colorOption (black)
+Step 4: Click on button buy
+Step 5: Click on link placeOrder -> Navigate to page '/cart'
+Step 6: Click on link samsung25WpowerAdapter -> Navigate to page '/product/*'
+Step 7: Click on link samsung -> Navigate to page '/category/accessories-samsung'
+Step 8: Click on link samsungGalaxyS23Ultra -> Navigate to page '/product/*'
+Step 9: Click on span shoppingCart -> Navigate to page '/cart'
+Step 10: Click on button remove
+Step 11: Click on link kCellphoneShop -> Navigate to page '/'
+Step 12: Click on item about
+Step 13: Click on link about -> Navigate to page ''
+Step 14: Take full page screenshot as checkpoint
+",Medium,NEW
+2,Add and Remove Products while Filtering by Price Range,"Navigate to the home page, add a product to the cart, and remove it. Filter products by price range and verify the home page.","Step 1: Navigate to /
+Step 2: Click on item product
+Step 3: Click on button addToCart
+Step 4: Click on button buy
+Step 5: Click on label colorOption (pink)
+Step 6: Click on button buy2
+Step 7: Click on link placeOrder -> Navigate to page '/cart'
+Step 8: Click on button remove
+Step 9: Click on link apple -> Navigate to page '/category/accessories-apple'
+Step 10: Click on input priceMin
+Step 11: Enter input value in input priceMin
+Step 12: Click on input priceMax
+Step 13: Enter input value in input priceMax
+Step 14: Click on button show
+Step 15: Click on input priceMin
+Step 16: Enter input value in input priceMin
+Step 17: Click on div clearCalculating
+Step 18: Click on button clear
+Step 19: Click on input inStock
+Step 20: Click on link kCellphoneShop -> Navigate to page ''
+Step 21: Take full page screenshot as checkpoint
+",Trivial,NEW
