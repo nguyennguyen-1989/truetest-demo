@@ -1,0 +1,190 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "45119352-63af-4259-88e1-7327a630e61a",
+      "name": "Navigate to /",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "64bd5197-bc03-4122-8367-c0b037b68b5b",
+      "name": "Click on item product",
+      "action_id": "ec1d6bf3-997f-4869-9353-d962c408535a",
+      "timestamp": 1771818252823,
+      "target_name": "item_product",
+      "target_test_object_id": "f9bd98e1-160d-4c20-a2e0-5ef560487d81",
+      "sub_steps": []
+    },
+    {
+      "id": "8fc4bc08-237c-42fb-86eb-1d5437319734",
+      "name": "Click on button addToCart",
+      "action_id": "4e57e48c-ebea-434f-bee2-c88c2cedff07",
+      "timestamp": 1771818253258,
+      "target_name": "button_addToCart",
+      "target_test_object_id": "a621c341-2c06-4273-8ad1-a7c89208d25b",
+      "sub_steps": []
+    },
+    {
+      "id": "c11fdb2c-5cde-4975-8b0d-200c797db9c0",
+      "name": "Click on button buy",
+      "action_id": "2b7bba44-2075-4924-83da-662c88572054",
+      "timestamp": 1771818255008,
+      "target_name": "button_buy",
+      "target_test_object_id": "75c20530-95a5-4579-bbb2-8f624448aebc",
+      "sub_steps": []
+    },
+    {
+      "id": "f4bcda08-765f-4cca-9895-2657550a192f",
+      "name": "Click on label colorOption (pink)",
+      "action_id": "2129d496-62c3-4b44-a706-62708ecc6a8f",
+      "timestamp": 1771818256291,
+      "target_name": "label_colorOption",
+      "target_test_object_id": "7f03fc33-0feb-44b2-a58e-3d1a11bb9054",
+      "sub_steps": []
+    },
+    {
+      "id": "7799c87c-2606-4d2a-b3f9-de9bc2ab854c",
+      "name": "Click on button buy2",
+      "action_id": "892bd7bc-af58-485d-a31b-a229a9ec879b",
+      "timestamp": 1771818257225,
+      "target_name": "button_buy2",
+      "target_test_object_id": "3e916f9d-7f6c-4a21-bb39-518612a0b100",
+      "sub_steps": []
+    },
+    {
+      "id": "13ff98ba-4a4e-4f5d-8f71-5e0cc5d8622b",
+      "name": "Click on link placeOrder -> Navigate to page '/cart'",
+      "action_id": "9058aa72-c9c3-4086-92b0-2f0c7dab3a13",
+      "timestamp": 1771818259841,
+      "target_name": "link_placeOrder",
+      "target_test_object_id": "7f5b4caf-af29-4adf-a7d1-c53943cdebbc",
+      "sub_steps": []
+    },
+    {
+      "id": "2f4e6d7a-ae2c-4518-b142-a6be4c9d7068",
+      "name": "Click on button remove",
+      "action_id": "a65e6935-6906-4f4a-9f15-9f119accc401",
+      "timestamp": 1771818262758,
+      "target_name": "button_remove",
+      "target_test_object_id": "b3e9e494-2496-4142-af19-78d177ab3ad1",
+      "sub_steps": []
+    },
+    {
+      "id": "781728b9-9ae4-46a5-ad20-c4ccc349429b",
+      "name": "Click on link apple -> Navigate to page '/category/accessories-apple'",
+      "action_id": "3837999c-cd94-4e83-94fa-5cc1add1d78d",
+      "timestamp": 1771818268157,
+      "target_name": "link_apple",
+      "target_test_object_id": "78cc7d10-8347-4f4a-a51a-ce09c6c620b6",
+      "sub_steps": []
+    },
+    {
+      "id": "917b9739-7b16-49e2-bd57-39ad9dff4058",
+      "name": "Click on input priceMin",
+      "action_id": "d254f5cf-34d8-40bf-af55-ac0ea5bfd95f",
+      "timestamp": 1771818271458,
+      "target_name": "input_priceMin",
+      "target_test_object_id": "1c788b63-fd5f-498e-b599-7cb24c63b537",
+      "sub_steps": []
+    },
+    {
+      "id": "5d21aca5-3647-4d7c-94c6-ffbd21280f00",
+      "name": "Enter input value in input priceMin",
+      "action_id": "75f638ec-e5b1-453d-8769-2a7163b17f74",
+      "timestamp": 1771818272946,
+      "target_name": "input_priceMin",
+      "target_test_object_id": "1c788b63-fd5f-498e-b599-7cb24c63b537",
+      "sub_steps": []
+    },
+    {
+      "id": "066c9547-a275-4b19-b254-c97089d3ecc4",
+      "name": "Click on input priceMax",
+      "action_id": "5137ee15-005e-43b5-a483-fd8739b4e0b6",
+      "timestamp": 1771818273795,
+      "target_name": "input_priceMax",
+      "target_test_object_id": "edaf5fb8-973c-42ac-9b10-4914cc925d9b",
+      "sub_steps": []
+    },
+    {
+      "id": "c60b93bb-9a8a-41c8-ba60-c1497539b500",
+      "name": "Enter input value in input priceMax",
+      "action_id": "fa416686-24ed-4bb4-88f8-7e78c394a2f3",
+      "timestamp": 1771818274649,
+      "target_name": "input_priceMax",
+      "target_test_object_id": "edaf5fb8-973c-42ac-9b10-4914cc925d9b",
+      "sub_steps": []
+    },
+    {
+      "id": "7bbe1742-8859-4733-9c99-05b578245cd5",
+      "name": "Click on button show",
+      "action_id": "31a5cc83-afab-4bb2-804f-6e72d49fec6c",
+      "timestamp": 1771818279361,
+      "target_name": "button_show",
+      "target_test_object_id": "bfa595cb-8318-468d-976c-9558ccf8ec66",
+      "sub_steps": []
+    },
+    {
+      "id": "207fd6e3-2cf5-45c7-808a-46b2a0e60d5d",
+      "name": "Click on input priceMin",
+      "action_id": "7ffff84e-db38-4b3e-bc4b-876862adef30",
+      "timestamp": 1771818281174,
+      "target_name": "input_priceMin",
+      "target_test_object_id": "1c788b63-fd5f-498e-b599-7cb24c63b537",
+      "sub_steps": []
+    },
+    {
+      "id": "ecb90421-7212-4ee0-866e-163ea5498978",
+      "name": "Enter input value in input priceMin",
+      "action_id": "fb0272a4-02e5-4f00-be8f-86466998fa64",
+      "timestamp": 1771818281975,
+      "target_name": "input_priceMin",
+      "target_test_object_id": "1c788b63-fd5f-498e-b599-7cb24c63b537",
+      "sub_steps": []
+    },
+    {
+      "id": "6aa5fdf3-72ff-4297-8613-f107653ee3f4",
+      "name": "Click on div clearCalculating",
+      "action_id": "bee84817-0e8b-4e50-a15e-a6c2347f9527",
+      "timestamp": 1771818283261,
+      "target_name": "div_clearCalculating",
+      "target_test_object_id": "68306364-35cd-468a-a01e-b185a406270d",
+      "sub_steps": []
+    },
+    {
+      "id": "4b8034c2-8cb1-48fb-9168-b8a3bc764b18",
+      "name": "Click on button clear",
+      "action_id": "f2983e74-e990-41b1-a1b1-5d5ce03bfd80",
+      "timestamp": 1771818287324,
+      "target_name": "button_clear",
+      "target_test_object_id": "7adcc232-981e-4e11-814f-d21d615ccb97",
+      "sub_steps": []
+    },
+    {
+      "id": "bc4cf12a-2a61-4497-aaa0-1a0bed951e82",
+      "name": "Click on input inStock",
+      "action_id": "e48bc6ce-78be-49e0-8ade-bed5516f71c0",
+      "timestamp": 1771818289291,
+      "target_name": "input_inStock",
+      "target_test_object_id": "bdb002ec-b8e6-4868-a5a3-1f424fd33e95",
+      "sub_steps": []
+    },
+    {
+      "id": "8e2c00e5-6b48-44bb-8a3e-ca2784af45d3",
+      "name": "Click on link kCellphoneShop -> Navigate to page ''",
+      "action_id": "300859df-5a7e-4e4f-92ca-6f194214bc95",
+      "timestamp": 1771818294208,
+      "target_name": "link_kCellphoneShop",
+      "target_test_object_id": "33cf5e99-0e81-4c95-b84d-e72ca2325c9c",
+      "sub_steps": []
+    },
+    {
+      "id": "e3c4a506-89e3-4378-84f1-d46b6ff41a5e",
+      "name": "Take full page screenshot as checkpoint",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}

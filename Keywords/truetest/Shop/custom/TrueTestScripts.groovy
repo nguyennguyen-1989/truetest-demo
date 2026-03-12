@@ -11,6 +11,7 @@ import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
 import groovy.json.JsonSlurper
 import internal.GlobalVariable
 import java.util.regex.Pattern
+import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.interactions.Actions
 
@@ -215,6 +216,20 @@ public class TrueTestScripts {
                 WebUiCommonHelper.switchToDefaultContent()
             }
         }
+    }
+    
+    public static void pressControlAndClick(TestObject to) {
+        String osName = System.getProperty("os.name", "").toLowerCase()
+        Keys keyToSend = osName.contains("mac") ? Keys.COMMAND : Keys.CONTROL
+        WebUI.waitForElementClickable(to, 20)
+        WebElement element = WebUI.findWebElement(to)
+        Actions actions = new Actions(DriverFactory.getWebDriver())
+        actions.keyDown(keyToSend)
+        .click(element)
+        .keyUp(keyToSend)
+        .build()
+        .perform()
+        WebUI.delay(3)
     }
     
     public static switchToNextWindow() {

@@ -29,7 +29,7 @@ Step 27: Click on button addToCart
 Step 28: Click on button close -> Navigate to page ''
 Step 29: Take full page screenshot as checkpoint
 ",High,NEW
-3,Manage Shopping Cart with Multiple Accessories and Verify Home Page,"Add multiple accessories to the cart, remove items, and navigate through product categories while ensuring the home page is displayed correctly.","Step 1: Navigate to /
+3,Manage Shopping Cart with Multiple Accessories and Product Details,"Add multiple accessories to the cart, view product details, remove items, and navigate back to the home page while verifying the page.","Step 1: Navigate to /
 Step 2: Click on button addToCart2
 Step 3: Click on label colorOption (black)
 Step 4: Click on button buy
