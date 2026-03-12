@@ -29,7 +29,7 @@ Step 27: Click on button addToCart
 Step 28: Click on button close -> Navigate to page ''
 Step 29: Take full page screenshot as checkpoint
 ",High,NEW
-3,Manage Shopping Cart with Multiple Accessories and Product Details,"Add multiple accessories to the cart, view product details, remove items, and navigate back to the home page while verifying the page.","Step 1: Navigate to /
+3,Manage Shopping Cart with Multiple Accessories and Product Details,"Add multiple accessories to the cart, view product details, and remove items. Navigate back to the home page and verify the layout.","Step 1: Navigate to /
 Step 2: Click on button addToCart2
 Step 3: Click on label colorOption (black)
 Step 4: Click on button buy
@@ -44,7 +44,7 @@ Step 12: Click on item about
 Step 13: Click on link about -> Navigate to page ''
 Step 14: Take full page screenshot as checkpoint
 ",Medium,NEW
-2,Add and Remove Products while Filtering by Price Range,"Navigate to the home page, add a product to the cart, and remove it. Filter products by price range and verify the home page.","Step 1: Navigate to /
+2,Add and Remove Products while Filtering by Price Range,"Navigate to the home page, add a product to the cart, and remove it. Filter products by price range and verify the results.","Step 1: Navigate to /
 Step 2: Click on item product
 Step 3: Click on button addToCart
 Step 4: Click on button buy

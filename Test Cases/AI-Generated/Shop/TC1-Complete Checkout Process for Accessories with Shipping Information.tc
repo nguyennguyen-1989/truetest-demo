@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to the accessories category, add an item to the cart, and proceed through the checkout process by entering shipping details and completing the order.</description>
+   <name>TC1-Complete Checkout Process for Accessories with Shipping Information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>50cab475-aa76-4376-b459-a53be1ada54a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 14: Enter input value in input address - (Input data variable)</description>
+      <id>c5fa377f-55a1-441f-bc8b-9f883b2b268e</id>
+      <masked>false</masked>
+      <name>input_address</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 19: Enter input value in input city - (Input data variable)</description>
+      <id>096ccb96-34cb-4737-9d0e-1a154ab9933d</id>
+      <masked>false</masked>
+      <name>input_city</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 7: Enter input value in input email - (Input data variable)</description>
+      <id>2945b941-0cb6-47e8-bf2b-8aea969c4557</id>
+      <masked>false</masked>
+      <name>input_email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 10: Enter input value in input firstName - (Input data variable)</description>
+      <id>a5594974-e556-42ed-9a2b-2442167f5a62</id>
+      <masked>false</masked>
+      <name>input_firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 12: Enter input value in input lastName - (Input data variable)</description>
+      <id>33345e94-1185-4a8d-a75b-b679c302058c</id>
+      <masked>false</masked>
+      <name>input_lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 23: Enter input value in input phone - (Input data variable)</description>
+      <id>3be7176b-df51-42ae-956c-d97d5798f0e3</id>
+      <masked>false</masked>
+      <name>input_phone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 21: Enter input value in input state - (Input data variable)</description>
+      <id>0530b2bc-2149-48d9-ac22-ab1759aff1fe</id>
+      <masked>false</masked>
+      <name>input_state</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 16: Enter input value in input zipCode - (Input data variable)</description>
+      <id>27e1c2ee-56f8-498a-8dbc-34c8d43c5cca</id>
+      <masked>false</masked>
+      <name>input_zipCode</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>555eb27e-5bf1-42d7-a545-bd35611327c7</id>
+      </flow>
+   </customField>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{"status": "DRAFT", "source": "User Session"}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+</TestCaseEntity>
