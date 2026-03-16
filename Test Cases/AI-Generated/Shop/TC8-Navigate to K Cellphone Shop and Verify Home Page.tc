@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to the home page, explore the K Cellphone Shop, and verify the home page after interactions.</description>
+   <name>TC8-Navigate to K Cellphone Shop and Verify Home Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5560a20-c9f6-4891-ab9c-625f4e213398</testCaseGuid>
+   <customField>
+      <flow>
+         <id>d3722129-055f-4c9a-b7ee-a22477d303a8</id>
+      </flow>
+   </customField>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{"status": "DRAFT", "source": "User Session"}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+</TestCaseEntity>

@@ -1,0 +1,55 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "0a63a324-a6d0-43ba-8340-c9ac7b38df08",
+      "name": "Navigate to /",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "7a4ec1b4-3202-4b00-9b7f-7e182fba34ad",
+      "name": "Click on link prevButton",
+      "action_id": "5c8a49da-5174-4725-a484-d90507d65237",
+      "timestamp": 1773651378289,
+      "target_name": "link_prevButton",
+      "target_test_object_id": "a7b52abd-2b77-484f-beb9-dcebd22548ff",
+      "sub_steps": []
+    },
+    {
+      "id": "03e24a81-54b1-4a47-891d-f8846bfcb61d",
+      "name": "Click on div kCellphoneShopContainer",
+      "action_id": "0c5e5153-df1c-484a-9ee8-7ec0d4a86a45",
+      "timestamp": 1773651379256,
+      "target_name": "div_kCellphoneShopContainer",
+      "target_test_object_id": "8bee9ce1-4d26-4628-9e0c-ec24b119838c",
+      "sub_steps": []
+    },
+    {
+      "id": "da7f90a1-b053-43b5-9f41-ac27b8d8fe15",
+      "name": "Click on div kCellphoneShopContainer",
+      "action_id": "a4869ae0-94b5-4863-bbbb-a6070640507a",
+      "timestamp": 1773651379757,
+      "target_name": "div_kCellphoneShopContainer",
+      "target_test_object_id": "8bee9ce1-4d26-4628-9e0c-ec24b119838c",
+      "sub_steps": []
+    },
+    {
+      "id": "2a2ca0f9-1bf3-4492-bae4-2b7d2d360b76",
+      "name": "Click on link kCellphoneShop -> Navigate to page ''",
+      "action_id": "0eb84cee-0594-4a99-b51b-18ab6ff27bc1",
+      "timestamp": 1773651380289,
+      "target_name": "link_kCellphoneShop",
+      "target_test_object_id": "d0809ead-d835-4c83-83a8-68f074ed2141",
+      "sub_steps": []
+    },
+    {
+      "id": "b7428a62-432f-4d09-9775-2f14e39c4816",
+      "name": "Take full page screenshot as checkpoint",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}

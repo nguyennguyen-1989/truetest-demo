@@ -1,34 +1,11 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-1,Complete Checkout Process for Accessories with Shipping Information,"Navigate to accessories, add an item to the cart, proceed to checkout, fill in shipping details, and complete the order.","Step 1: Navigate to /
-Step 2: Click on link accessories -> Navigate to page '/category/accessories'
-Step 3: Click on button addToCart
-Step 4: Click on link placeOrder -> Navigate to page '/cart'
-Step 5: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
-Step 6: Click on input email
-Step 7: Enter input value in input email
-Step 8: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
-Step 9: Click on input firstName
-Step 10: Enter input value in input firstName
-Step 11: Click on input lastName
-Step 12: Enter input value in input lastName
-Step 13: Click on input address
-Step 14: Enter input value in input address
-Step 15: Click on input zipCode
-Step 16: Enter input value in input zipCode
-Step 17: Click on input city
-Step 18: Click on input city
-Step 19: Enter input value in input city
-Step 20: Click on input state
-Step 21: Enter input value in input state
-Step 22: Click on input phone
-Step 23: Enter input value in input phone
-Step 24: Click on button continueToPayment -> Navigate to page '/checkout/payment'
-Step 25: Click on button completeOrder -> Navigate to page '/thank-you/*'
-Step 26: Click on link kCellphoneShop -> Navigate to page '/'
-Step 27: Click on button addToCart
-Step 28: Click on button close -> Navigate to page ''
-Step 29: Take full page screenshot as checkpoint
-",High,NEW
+8,Navigate to K Cellphone Shop and Verify Home Page,"Navigate to the home page, explore the K Cellphone Shop, and verify the home page after interactions.","Step 1: Navigate to /
+Step 2: Click on link prevButton
+Step 3: Click on div kCellphoneShopContainer
+Step 4: Click on div kCellphoneShopContainer
+Step 5: Click on link kCellphoneShop -> Navigate to page ''
+Step 6: Take full page screenshot as checkpoint
+",Medium,NEW
 3,Manage Cart with Multiple Accessories and Verify Home Page,"Add multiple accessories to the cart, remove items, and navigate back to the home page to verify.","Step 1: Navigate to /
 Step 2: Click on button addToCart2
 Step 3: Click on label colorOption (black)
@@ -43,30 +20,8 @@ Step 11: Click on link kCellphoneShop -> Navigate to page '/'
 Step 12: Click on item about
 Step 13: Click on link about -> Navigate to page ''
 Step 14: Take full page screenshot as checkpoint
-",Medium,NEW
-2,Add and Remove Products while Filtering by Price,"Navigate to home, add a product to the cart, remove it, filter products by price, and verify the home page.","Step 1: Navigate to /
-Step 2: Click on item product
-Step 3: Click on button addToCart
-Step 4: Click on button buy
-Step 5: Click on label colorOption (pink)
-Step 6: Click on button buy2
-Step 7: Click on link placeOrder -> Navigate to page '/cart'
-Step 8: Click on button remove
-Step 9: Click on link apple -> Navigate to page '/category/accessories-apple'
-Step 10: Click on input priceMin
-Step 11: Enter input value in input priceMin
-Step 12: Click on input priceMax
-Step 13: Enter input value in input priceMax
-Step 14: Click on button show
-Step 15: Click on input priceMin
-Step 16: Enter input value in input priceMin
-Step 17: Click on div clearCalculating
-Step 18: Click on button clear
-Step 19: Click on input inStock
-Step 20: Click on link kCellphoneShop -> Navigate to page ''
-Step 21: Take full page screenshot as checkpoint
-",Low,NEW
-4,Explore Products and Navigate Cart and Categories,"Browse products, navigate through categories, and verify the home page after interacting with the cart.","Step 1: Navigate to /product/*
+",Medium,RETAINED
+5,Explore Products and Navigate to Cart,"Navigate through product thumbnails and categories, add items to the cart, and verify the cart's status on the home page.","Step 1: Navigate to /product/*
 Step 2: Click on link productThumbnail (productThumbnail)
 Step 3: Click on link productThumbnail (productThumbnail2)
 Step 4: Click on link object
@@ -80,6 +35,33 @@ Step 11: Click on link goToCartActive -> Navigate to page '/cart'
 Step 12: Click on link phoneCategory -> Navigate to page '/category/phone'
 Step 13: Click on link goToCartActive -> Navigate to page '/cart'
 Step 14: Click on link goToCartEmpty
-Step 15: Click on link goToCartActive -> Navigate to page ''
+Step 15: Click on link goToCartActive -> Navigate to page '/'
 Step 16: Take full page screenshot as checkpoint
+",Low,NEW
+7,Browse Product Options and Return to Home,"Navigate to product options, explore various categories, and return to the home page multiple times while verifying the navigation.","Step 1: Navigate to /
+Step 2: Click on link productOptions (galaxyS23Ultra) -> Navigate to page '/product/*'
+Step 3: Click on link kCellphoneShop -> Navigate to page '/'
+Step 4: Click on link productOptions (bestChoice) -> Navigate to page '/product/*'
+Step 5: Click on link kCellphoneShop -> Navigate to page '/'
+Step 6: Click on link caseOptions (siliconeCase) -> Navigate to page '/product/*'
+Step 7: Click on link kCellphoneShop -> Navigate to page '/'
+Step 8: Click on link caseOptions (proSiliconeCase) -> Navigate to page '/product/*'
+Step 9: Click on link contactPhone
+Step 10: Click on link kCellphoneShop -> Navigate to page ''
+Step 11: Take full page screenshot as checkpoint
+",Low,NEW
+6,Adjust Product Quantity and Remove Items from Cart,"Navigate to the home page, adjust product quantities, place an order, and remove items from the cart while verifying the home page.","Step 1: Navigate to /
+Step 2: Click on link prevButton
+Step 3: Click on link prevButton
+Step 4: Click on link chevronRight
+Step 5: Click on link chevronRight
+Step 6: Click on link chevronRight
+Step 7: Click on link chevronRight
+Step 8: Click on link productOptions (clearCase) -> Navigate to page '/product/*'
+Step 9: Click on button quantityControl (increased)
+Step 10: Click on button quantityControl (decreased)
+Step 11: Click on button quantityControl (buy)
+Step 12: Click on link placeOrder -> Navigate to page '/cart'
+Step 13: Click on button remove -> Navigate to page ''
+Step 14: Take full page screenshot as checkpoint
 ",Trivial,NEW
