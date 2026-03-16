@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add multiple accessories to the cart, remove items, and navigate back to the home page to verify.</description>
+   <name>TC3-Manage Cart with Multiple Accessories and Verify Home Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8f1647a1-01ab-4672-b832-c8758d316e9d</testCaseGuid>
+   <variable>
+      <defaultValue>'Black'</defaultValue>
+      <description>Step 3: Click on label colorOption (black) - (Dynamic locator variable)</description>
+      <id>4a7395d2-0239-40a4-b4c2-e7b3c2c9fdab</id>
+      <masked>false</masked>
+      <name>label_colorOption_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\\"btn\\\\ btn-outline-secondary\\"]'</defaultValue>
+      <description>Step 3: Click on label colorOption (black) - (Dynamic locator variable)</description>
+      <id>6a75e146-5ac5-4083-8285-03150285ede8</id>
+      <masked>false</masked>
+      <name>label_colorOption_css_value_1</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>fca124ef-43f1-4b2a-b94e-3245a121deb7</id>
+      </flow>
+   </customField>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{"status": "DRAFT", "source": "User Session"}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+</TestCaseEntity>

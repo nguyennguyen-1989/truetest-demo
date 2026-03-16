@@ -70,7 +70,14 @@ public class TrueTestScripts {
         }
         String url = "$applicationDomain$path";
         if (queryParameters != null && queryParameters.length() > 0) {
-            url = "$url?$queryParameters";
+            int fragmentIndex = url.indexOf("#");
+            String fragment = "";
+            if (fragmentIndex >= 0) {
+                fragment = url.substring(fragmentIndex);
+                url = url.substring(0, fragmentIndex);
+            }
+            String separator = url.contains("?") ? "&" : "?";
+            url = "$url$separator$queryParameters$fragment";
         }
         WebUI.navigateToUrl(url);
         WebUI.delay(DELAY_TIME);

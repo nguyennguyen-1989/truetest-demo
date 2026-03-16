@@ -1,0 +1,127 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "e1065bb7-5425-44d1-b8ae-da5e6ea86b60",
+      "name": "Navigate to /",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "43fc02f5-84fc-462d-8d34-d657066dfe8c",
+      "name": "Click on button addToCart2",
+      "action_id": "8e316963-4fbb-43c7-a50b-15f5fdd6f755",
+      "timestamp": 1771818302992,
+      "target_name": "button_addToCart2",
+      "target_test_object_id": "933df8f7-202d-40ad-b7b2-55ce7d7e3d1f",
+      "sub_steps": []
+    },
+    {
+      "id": "95f003b6-cab3-4661-8f3c-7576fdbe2a3e",
+      "name": "Click on label colorOption (black)",
+      "action_id": "32937746-5b3d-4052-8df7-58d3b4c693df",
+      "timestamp": 1771818304992,
+      "target_name": "label_colorOption",
+      "target_test_object_id": "d5471bee-345c-4ae3-a941-839e1c6a696e",
+      "sub_steps": []
+    },
+    {
+      "id": "2c1bfe13-d6db-4186-9dd0-3947f38a2a08",
+      "name": "Click on button buy",
+      "action_id": "f9706319-fee4-4dc5-b16f-3df27de960f6",
+      "timestamp": 1771818306242,
+      "target_name": "button_buy",
+      "target_test_object_id": "75c20530-95a5-4579-bbb2-8f624448aebc",
+      "sub_steps": []
+    },
+    {
+      "id": "f58b172c-de45-4ab0-ad86-89a8cb649f2d",
+      "name": "Click on link placeOrder -> Navigate to page '/cart'",
+      "action_id": "dda2ea01-69f3-40ff-892a-95f56e2b9d93",
+      "timestamp": 1771818308157,
+      "target_name": "link_placeOrder",
+      "target_test_object_id": "7f5b4caf-af29-4adf-a7d1-c53943cdebbc",
+      "sub_steps": []
+    },
+    {
+      "id": "4c4d1012-e9f2-4456-90ba-d2c6fc62b085",
+      "name": "Click on link samsung25WpowerAdapter -> Navigate to page '/product/*'",
+      "action_id": "6428f9c0-2429-4065-b0c1-5473d1a4c56a",
+      "timestamp": 1771818312124,
+      "target_name": "link_samsung25WpowerAdapter",
+      "target_test_object_id": "234ae348-2ba1-46ef-8b70-9b92eba7b6a4",
+      "sub_steps": []
+    },
+    {
+      "id": "b2c09ce0-1753-4eb5-b6fe-37af50388324",
+      "name": "Click on link samsung -> Navigate to page '/category/accessories-samsung'",
+      "action_id": "14182862-1c3d-428f-8080-6713d9c3a4e6",
+      "timestamp": 1771818317890,
+      "target_name": "link_samsung",
+      "target_test_object_id": "0bd4a4ef-0999-4477-8f2b-19bd5c9ee31e",
+      "sub_steps": []
+    },
+    {
+      "id": "2c2fcdda-5a30-495e-9ee1-af83fde69b07",
+      "name": "Click on link samsungGalaxyS23Ultra -> Navigate to page '/product/*'",
+      "action_id": "3c468cf4-158b-4a7f-b9f3-0f21c14829de",
+      "timestamp": 1771818319890,
+      "target_name": "link_samsungGalaxyS23Ultra",
+      "target_test_object_id": "4ce21242-b8c2-47fd-be55-e71ee11e7e9d",
+      "sub_steps": []
+    },
+    {
+      "id": "74e58342-6b85-4df6-94a1-59e2d1bb609b",
+      "name": "Click on span shoppingCart -> Navigate to page '/cart'",
+      "action_id": "23612199-15a0-43e9-8a05-29c36ff71118",
+      "timestamp": 1771818322857,
+      "target_name": "span_shoppingCart",
+      "target_test_object_id": "eee14551-e369-43ac-8578-60dfdf26254b",
+      "sub_steps": []
+    },
+    {
+      "id": "ab5a83ba-2493-4051-a4cb-1fa3a4fe46c6",
+      "name": "Click on button remove",
+      "action_id": "59f973a4-cbc5-468f-a7a7-dc5feed7ed54",
+      "timestamp": 1771818325392,
+      "target_name": "button_remove",
+      "target_test_object_id": "b3e9e494-2496-4142-af19-78d177ab3ad1",
+      "sub_steps": []
+    },
+    {
+      "id": "3ca92164-6291-491a-b6cc-4a770270364c",
+      "name": "Click on link kCellphoneShop -> Navigate to page '/'",
+      "action_id": "0d6deff2-c7d0-45ee-acca-e19b1c9477e3",
+      "timestamp": 1771818330041,
+      "target_name": "link_kCellphoneShop",
+      "target_test_object_id": "de59c259-fe52-4506-a414-21d95da58d5e",
+      "sub_steps": []
+    },
+    {
+      "id": "295178fe-8571-48bc-a724-447ac073ee31",
+      "name": "Click on item about",
+      "action_id": "0a14bdeb-447f-44d0-8cda-bac0c7979f84",
+      "timestamp": 1771818333398,
+      "target_name": "item_about",
+      "target_test_object_id": "a5c50dd3-c144-414e-8d2e-3a57d0463db5",
+      "sub_steps": []
+    },
+    {
+      "id": "e4775aef-5df2-4d1b-9333-ebf872bc3b67",
+      "name": "Click on link about -> Navigate to page ''",
+      "action_id": "5b0e3bde-fa82-4530-9c95-6e87057dc8f3",
+      "timestamp": 1771818334024,
+      "target_name": "link_about",
+      "target_test_object_id": "20af57f7-e449-4ef7-b6c0-c8d65bc3eece",
+      "sub_steps": []
+    },
+    {
+      "id": "7ea862ea-d300-484c-b82a-7f628ab3ec42",
+      "name": "Take full page screenshot as checkpoint",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}

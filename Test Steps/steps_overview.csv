@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-1,Complete Checkout Process for Accessories with Shipping Information,"Navigate to the accessories category, add an item to the cart, and proceed through the checkout process by entering shipping details and completing the order.","Step 1: Navigate to /
+1,Complete Checkout Process for Accessories with Shipping Information,"Navigate to accessories, add an item to the cart, proceed to checkout, fill in shipping details, and complete the order.","Step 1: Navigate to /
 Step 2: Click on link accessories -> Navigate to page '/category/accessories'
 Step 3: Click on button addToCart
 Step 4: Click on link placeOrder -> Navigate to page '/cart'
@@ -29,7 +29,7 @@ Step 27: Click on button addToCart
 Step 28: Click on button close -> Navigate to page ''
 Step 29: Take full page screenshot as checkpoint
 ",High,NEW
-3,Manage Shopping Cart with Multiple Accessories and Product Details,"Add multiple accessories to the cart, view product details, and remove items. Navigate back to the home page and verify the layout.","Step 1: Navigate to /
+3,Manage Cart with Multiple Accessories and Verify Home Page,"Add multiple accessories to the cart, remove items, and navigate back to the home page to verify.","Step 1: Navigate to /
 Step 2: Click on button addToCart2
 Step 3: Click on label colorOption (black)
 Step 4: Click on button buy
@@ -44,7 +44,7 @@ Step 12: Click on item about
 Step 13: Click on link about -> Navigate to page ''
 Step 14: Take full page screenshot as checkpoint
 ",Medium,NEW
-2,Add and Remove Products while Filtering by Price Range,"Navigate to the home page, add a product to the cart, and remove it. Filter products by price range and verify the results.","Step 1: Navigate to /
+2,Add and Remove Products while Filtering by Price,"Navigate to home, add a product to the cart, remove it, filter products by price, and verify the home page.","Step 1: Navigate to /
 Step 2: Click on item product
 Step 3: Click on button addToCart
 Step 4: Click on button buy
@@ -65,4 +65,21 @@ Step 18: Click on button clear
 Step 19: Click on input inStock
 Step 20: Click on link kCellphoneShop -> Navigate to page ''
 Step 21: Take full page screenshot as checkpoint
+",Low,NEW
+4,Explore Products and Navigate Cart and Categories,"Browse products, navigate through categories, and verify the home page after interacting with the cart.","Step 1: Navigate to /product/*
+Step 2: Click on link productThumbnail (productThumbnail)
+Step 3: Click on link productThumbnail (productThumbnail2)
+Step 4: Click on link object
+Step 5: Click on div slide
+Step 6: Click on link productThumbnail (productThumbnail3)
+Step 7: Click on link productThumbnail (productThumbnail4)
+Step 8: Click on link kCellphoneShop -> Navigate to page '/'
+Step 9: Click on link sliderNext
+Step 10: Click on link goToCartActive
+Step 11: Click on link goToCartActive -> Navigate to page '/cart'
+Step 12: Click on link phoneCategory -> Navigate to page '/category/phone'
+Step 13: Click on link goToCartActive -> Navigate to page '/cart'
+Step 14: Click on link goToCartEmpty
+Step 15: Click on link goToCartActive -> Navigate to page ''
+Step 16: Take full page screenshot as checkpoint
 ",Trivial,NEW

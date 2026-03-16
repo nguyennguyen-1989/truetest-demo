@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to home, add a product to the cart, remove it, filter products by price, and verify the home page.</description>
+   <name>TC2-Add and Remove Products while Filtering by Price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0449ea2-9608-4e69-a65a-2427765da064</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 13: Enter input value in input priceMax - (Input data variable)</description>
+      <id>6d7709cb-299e-488b-8089-8da7ee4d8495</id>
+      <masked>false</masked>
+      <name>input_priceMax</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 11: Enter input value in input priceMin - (Input data variable)</description>
+      <id>0f17e990-c9f1-46d7-b253-1f1fe13435d4</id>
+      <masked>false</masked>
+      <name>input_priceMin</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description>Step 16: Enter input value in input priceMin - (Input data variable)</description>
+      <id>293c594f-86c3-438f-a0e8-86cd6ca0941f</id>
+      <masked>false</masked>
+      <name>input_priceMin_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pink'</defaultValue>
+      <description>Step 5: Click on label colorOption (pink) - (Dynamic locator variable)</description>
+      <id>b83acea1-d742-42f0-8b9e-159cb560c6cc</id>
+      <masked>false</masked>
+      <name>label_colorOption_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=\\"\\\\31 52192-case-707\\"]'</defaultValue>
+      <description>Step 5: Click on label colorOption (pink) - (Dynamic locator variable)</description>
+      <id>8eddc229-1bfd-480c-9a87-1e9d911eb81d</id>
+      <masked>false</masked>
+      <name>label_colorOption_css_value_1</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>96294b25-0e86-4acf-ad68-4ac40e5f924e</id>
+      </flow>
+   </customField>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{"status": "DRAFT", "source": "User Session"}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+</TestCaseEntity>
